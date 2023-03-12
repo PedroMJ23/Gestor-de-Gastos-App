@@ -182,7 +182,7 @@ background: radial-gradient(circle, rgba(66,221,177,1) 0%, rgba(21,207,0,1) 100%
    
 } */
 footer {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
