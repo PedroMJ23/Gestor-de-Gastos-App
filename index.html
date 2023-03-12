@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de gastos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="mis_gastos--title">Mis Gastos App</h1>
+        <h2>Presupuesto disponible: </h2>
+        <span class="mostrar_todo_presupuesto"></span>
+
+        <div class="ingresos_gastos--mostrar">
+            <div class="ingresos_totales--div">
+                <h3>Ingresos:</h3>
+                <p class="ingresos_totales"></p>
+            </div>
+            <div class="gastos_totales--div">
+                <h3>Gastos:</h3>
+                <p class="gastos_totales"></p>
+            </div>
+        </div>
+        <div class="agregar_ingresos">
+            <form action="" class="formulario">
+                <input type="text" placeholder="Agregar descripcion" class="descripcion_input">
+                <input type="number" placeholder="Valor" class="valor_input">
+                <div class="ingresos_gastos--btn">
+                    <button class="btn_agregar">Agregar ingreso</button>
+                    <button class="btn_agregar_gasto">Agregar gasto</button>
+                </div>
+            </form>
+        </div>
+        <div class="ingresos_div">
+            <h3>ingresos:</h3>
+            <div class="ingresos_ul">
+                <div class="ingresos_lista_completa">
+                    <!-- <div class="ingresos_li" data-dataset="${id}"> ${descripcion} me suma $${valor}</div>
+                <div class="boton_de_eliminar"><img src="./assets/img/boton_de_eliminar.png" alt=""
+                        id="botonDeEliminar"></div> -->
+                </div>
+            </div>
+        </div>
+        <div class="gastos_div">
+            <h3>Gastos:</h3>
+            <div class="gastos_ul">
+                <div class="gastos_lista_completa">
+                    <!-- <div class="gastos_li" data-dataset="${id}"> ${descripcion} me suma $${valor}</div>
+                <div class="boton_de_eliminar"><img src="./assets/img/boton_de_eliminar.png" alt=""
+                        id="botonDeEliminar"></div> -->
+                </div>
+            </div>
+        </div>
+        <div class="ultimo_boton"><button class="borrar_todo">Quitar todo</button></div>
+
+    </main>
+    <footer class="creador_app"> <div class="creado_por">Creado por: Pedro Marquez</div> <div class="email">peymarquez23@gmail.com</div>  </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
